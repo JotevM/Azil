@@ -1,0 +1,166 @@
+.GlavniKontejner
+{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background:cornsilk;
+    flex:1 1 50px;
+    border: 3px solid brown;
+    font-size:17px;
+    flex-wrap:wrap;
+    font-family: 'Courier New', monospace;   
+
+}
+
+
+.Naslov{
+
+    text-align: center;
+    color: rgb(206, 143, 65);
+    font-weight: 500 bold;
+    font-size: 20px;
+    font-family: 'Courier New', monospace;
+    
+}
+
+table,tr,th,td{
+
+    border: 1px solid brown;
+   
+    background:cornsilk;
+  
+    border-collapse: collapse;
+    text-align: center;
+   
+
+}
+
+table
+{
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid brown;
+    background-color: burlywood;
+    background:cornsilk;
+    
+}
+.Forma{
+
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex: 0 1 100px;
+    flex-direction: column;
+    
+}
+.Dodavanje,.Brisanje,.Izmena
+{
+    text-align: center;
+    margin-left: 30px;
+    flex: 0 1 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.Izmena{
+    text-align: center;
+    margin-right: 10px;
+}
+
+.Prikaz, .Prikaz3{
+    margin-top: 30px;
+    display: flex;
+    box-sizing:border-box;
+    text-align: center;
+    
+}
+.Klasa
+{
+    display:flex;
+    flex: 0 0 100px;
+    flex-direction:row;
+    background: papayawhip;
+    text-align: center;
+    
+}
+.Odaberi
+{
+    display: flex;
+    flex: 0 0 200px;
+    flex-direction: column;
+    text-align: center;
+}
+.Dugme
+{
+    border:3px solid brown;
+    margin-top: 7px;
+    font-family: 'Courier New', monospace;
+    background-color: burlywood;
+    box-shadow: 0 1px 4px;
+    opacity:0.8;
+    padding:1px;
+    text-align: center;
+    
+   
+}
+
+body{
+    
+  background-color: peachpuff;
+  background-image: url(/img/foto1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  text-align: center;
+
+}
+
+@media screen and (max-width :550px)
+{
+    .Dugme
+    {
+        text-align: center;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width :550px)
+{
+    .Dugme,.Izmena,.Naslov,.Odaberi,.Brisanje,.Dodavanje
+    {
+        text-align: center;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width :700px)
+{
+    .Prikaz,.Forma
+    {
+        font-size: 9px;
+        text-align: center;
+    }
+}
+@media screen and (max-width :700px)
+{
+    table,th,tr,td
+    {
+        font-size: 9px;
+        text-align: center;
+    }
+}
+@media screen and (max-width :700px)
+{
+    .Klasa
+    {
+        font-size: 9px;
+        text-align: center;
+    }
+}
+@media screen and (max-width :700px)
+{
+    body
+    {
+        text-align: center;
+        font-size: 9px;
+    }
+}
